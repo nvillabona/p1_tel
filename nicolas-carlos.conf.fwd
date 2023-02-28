@@ -1,0 +1,14 @@
+$ORIGIN nicolas-carlos.com.
+$TTL 3H
+@       IN SOA  parcial.nicolas-carlos.com.  root@nicolas-carlos.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      parcial.nicolas-carlos.com.
+
+;host en la zona
+
+parcial IN      A       192.168.50.3
+WWW     IN      CNAME   parcial
